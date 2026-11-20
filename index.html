@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description"
+    content="Home repairs and remodeling in Mesquite and the Dallas area. Ask RWB Revolution for a free estimate.">
+<title>RWB Revolution | Home Repairs &amp; Remodeling</title>
+<style>
+    * {
+        box-sizing: border-box
+    }
+
+    body {
+        margin: 0;
+        background: #12110f;
+        color: #fff7e8;
+        font: 1rem/1.6 system-ui, sans-serif
+    }
+
+    header,
+    footer {
+        border-block: 1px solid #493923
+    }
+
+    nav,
+    section {
+        width: min(1080px, calc(100% - 40px));
+        margin: auto
+    }
+
+    nav,
+    .actions {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap
+    }
+
+    nav {
+        justify-content: space-between;
+        padding: 16px 0
+    }
+
+    .brand {
+        letter-spacing: .12em;
+        font-weight: 900
+    }
+
+    .brand b,
+    .primary {
+        background: #ffc454;
+        color: #181109;
+        border-radius: 5px;
+        padding: .35em .5em
+    }
+
+    button,
+    a {
+        font: inherit;
+        font-weight: 750;
+        color: inherit
+    }
+
+    button,
+    .btn {
+        padding: .65rem .9rem;
+        background: transparent;
+        border: 1px solid #79603d;
+        border-radius: 6px;
+        text-decoration: none;
+        cursor: pointer
+    }
+
+    .primary {
+        background: #ffc454;
+        color: #181109
+    }
+
+    .hero {
+        background: radial-gradient(ellipse at 75% 40%, #392b18, transparent 70%);
+        border-bottom: 1px solid #493923
+    }
+
+    .hero section {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        align-items: center;
+        gap: clamp(20px, 6vw, 70px)
+    }
+
+    section {
+        padding: clamp(34px, 6vw, 72px) 0
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    figure {
+        margin: 0
+    }
+
+    h1 {
+        font-size: clamp(2.5rem, 6vw, 5.2rem);
+        letter-spacing: -.06em;
+        line-height: 1;
+        margin: 14px 0
+    }
+
+    h1 span {
+        display: block;
+        color: #ffc454
+    }
+
+    h2 {
+        font-size: clamp(1.9rem, 4vw, 3.2rem);
+        line-height: 1.1;
+        margin-bottom: 20px
+    }
+
+    p {
+        color: #d6c9b6
+    }
+
+    .label,
+    strong {
+        color: #ffc454
+    }
+
+    .label {
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: .12em;
+        margin-bottom: 10px
+    }
+
+    .actions {
+        margin-top: 20px
+    }
+
+    figure {
+        border: 1px solid #79603d;
+        border-radius: 12px;
+        overflow: hidden;
+        max-width: 380px
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover
+    }
+
+    figcaption {
+        padding: 10px 15px
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+        margin: 0;
+        padding: 0
+    }
+
+    .grid>* {
+        background: #242019;
+        border: 1px solid #493923;
+        border-radius: 8px;
+        padding: 18px;
+        list-style-position: inside
+    }
+
+    .band {
+        background: #1c1812;
+        border-block: 1px solid #493923
+    }
+
+    .contact {
+        background: #2b2112
+    }
+
+    #notice {
+        overflow-wrap: anywhere
+    }
+
+    :focus-visible {
+        outline: 3px solid #fff;
+        outline-offset: 4px
+    }
+
+    @media(max-width:690px) {
+        .hero section {
+            grid-template-columns: 1fr
+        }
+
+        .grid {
+            grid-template-columns: 1fr
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="brand"><b>RWB</b> REVOLUTION</div><button id="language" type="button" lang="es">Español</button>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <section>
+                <div>
+                    <p class="label" data-es="Reparaciones y remodelación · Mesquite, TX">Home repairs &amp; remodeling
+                        · Mesquite, TX</p>
+                    <h1><b data-es="Pequeñas reparaciones.">Small repairs.</b><span data-es="Grandes renovaciones.">Big
+                            renovations.</span></h1>
+                    <p
+                        data-es="Desde reparar una pared hasta renovar tu cocina o baño, cuéntale a Wilson qué quieres mejorar en casa.">
+                        From patching drywall to updating your kitchen or bathroom, tell Wilson what you want to improve
+                        at home.</p>
+                    <div class="actions"><a class="btn primary" data-wa data-es="Estimado gratis por WhatsApp"
+                            href="https://wa.me/14698950486" target="_blank" rel="noopener noreferrer">Free estimate on WhatsApp</a><a class="btn"
+                            href="tel:+14698950486" target="_blank" rel="noopener noreferrer">(469) 895-0486</a></div>
+                </div>
+                <figure><img src="wilson.jpg" alt="Wilson Ruiz">
+                    <figcaption><strong>Wilson Ruiz</strong> · <span data-es="Propietario">Owner</span></figcaption>
+                </figure>
+            </section>
+        </div>
+        <section>
+            <p class="label" data-es="Nuestros servicios">Our services</p>
+            <h2 data-es="¿Qué quieres mejorar en casa?">What would you like to fix or update?</h2>
+            <div class="grid">
+                <article>
+                    <h3 data-es="Cocinas y baños">Kitchens &amp; bathrooms</h3>
+                    <p data-es="Renovaciones y mejoras para tu espacio.">Remodeling and upgrades tailored to your space.
+                    </p>
+                </article>
+                <article>
+                    <h3 data-es="Drywall y pintura">Drywall &amp; painting</h3>
+                    <p data-es="Reparaciones, texturas y pintura interior y exterior.">Drywall repairs, texture work,
+                        and interior and exterior painting.</p>
+                </article>
+                <article>
+                    <h3 data-es="Instalación de pisos">Flooring installation</h3>
+                    <p data-es="Cerámica, vinilo y laminado.">Tile, vinyl, and laminate.</p>
+                </article>
+                <article>
+                    <h3 data-es="Carpintería y reparaciones">Carpentry &amp; home repairs</h3>
+                    <p data-es="Molduras, ajustes y arreglos para tu hogar.">Trim, adjustments, and everyday fixes.</p>
+                </article>
+                <article>
+                    <h3 data-es="Puertas, ventanas y mampostería">Doors, windows &amp; masonry</h3>
+                    <p data-es="Instalación, reparaciones y mejoras.">Installation, repairs, and improvements.</p>
+                </article>
+                <article>
+                    <h3 data-es="Construcción general">General construction</h3>
+                    <p data-es="Cuéntanos tu proyecto y revisamos el alcance contigo.">Tell us about your project and
+                        we’ll review the scope with you.</p>
+                </article>
+            </div>
+        </section>
+        <div class="band">
+            <section>
+                <h2 data-es="Así trabajamos">How it works</h2>
+                <ol class="grid">
+                    <li data-es="Envía tu ciudad, una descripción y fotos si las tienes.">Send your city, a description,
+                        and photos if you have them.</li>
+                    <li data-es="Revisamos el alcance y te damos un estimado.">We review the scope and give you an
+                        estimate.</li>
+                    <li data-es="Si apruebas el estimado, acordamos una fecha contigo.">If you approve the estimate,
+                        we’ll arrange a date with you.</li>
+                </ol>
+            </section>
+        </div>
+        <section>
+            <p class="label" data-es="Zona de servicio">Service area</p>
+            <h2 data-es="Mesquite y alrededores de Dallas">Mesquite &amp; the surrounding Dallas area</h2>
+            <p>Mesquite · Dallas · Garland · Rowlett · Forney · Rockwall · Lavon · Wylie · Princeton</p>
+            <p data-es="¿No ves tu ciudad? Envíanos tu código postal para confirmar cobertura.">Don’t see your city?
+                Send us your ZIP code to check coverage.</p>
+        </section>
+        <div class="contact">
+            <section>
+                <h2 data-es="Hablemos de tu proyecto">Let’s talk about your project</h2>
+                <p data-es="Llama o escríbele a Wilson para pedir un estimado gratis.">Call or message Wilson for a free
+                    estimate.</p>
+                <div class="actions"><a class="btn primary" data-wa target="_blank" rel="noopener noreferrer" href="https://wa.me/14698950486">WhatsApp</a><a
+                        class="btn" href="sms:+14698950486" target="_blank" rel="noopener noreferrer" data-es="Enviar SMS">Send a text</a><a class="btn"
+                        href="tel:+14698950486" target="_blank" rel="noopener noreferrer" data-es="Llamar a Wilson">Call Wilson</a></div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <div class="brand"><b>RWB</b> REVOLUTION</div>
+            <div><button id="share" type="button" data-es="Compartir página">Share this page</button>
+                <p id="notice" role="status"></p>
+            </div>
+        </nav>
+    </footer>
+    <script src="site.js" defer></script>
+</body>
+
+</html>
